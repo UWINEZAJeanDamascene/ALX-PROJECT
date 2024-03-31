@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background: #eee;
+}
+.container{
+ width: 100%;
+  margin: 0 auto;
+  background: #183a51;
+  text-align: center;
+
+}
+
+header{
+  padding: 10px 0;
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(18, 72, 209, 0.333);
+  color: #ffffff;
+ font-weight: 800;
+}
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #0d1f2b;
+}
+nav a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 20px;
+ 
+}
+nav .right{
+  position: absolute;
+  right: 30px;
+}
+.My-bio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 10px;
+}
+.My-bio img{
+ height: 400px;
+  object-fit: contain;
+width: 400px;
+}
+.skills{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding: 20px;
+color: #ffffff;
+
+}
+.skills h2{
+  margin: 20px;
+  color: #4fc5c9;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+.skills ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+
+}
+.project h2{
+  color: #4fc5c9;
+  margin: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 16px;
+
+}
+.project a{
+  text-decoration: none;
+  margin: 10px;
+  color: #2f840b;
+}
+footer{
+  padding: 10px 0 ;
+  margin: 10px 0 0  0;
+  width: 100%;
+  color: antiquewhite;
+  background:rgba(18, 72, 209, 0.333) ;
+  font-weight: 800;
+}
